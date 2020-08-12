@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Survey</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Survey</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input id="name" class="form-control" type="text"></input>
+        </div>
+        <div class="form-group">
+          <label for="dob">Your Date of Birth:</label>
+          <input id="dob" class="form-control" type="date"></input>
+        </div>
+        <div class="form-group">
+          <label for="food">Your Favorite Food</label>
+          <select class="form-control" id="beverage">
+            <option>Pizza</option>
+            <option>Ramen</option>
+            <option>Tiramisu</option>
+            <option>Kale</option>
+          </select>
+        </div> 
+        <div class="form-group">
+          <label for="drink">What are you going to drink after class?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="beverage" value="negroni" checked>
+              Negroni
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="beverage" value="shot">
+              Fernet
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="beverage" value="warm-vodka">
+              Warm Vodka
+            </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="color">What's Your Favorite Color?</label>
+          <input id="color" class="form-control" type="color"></input>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
